@@ -32,6 +32,4 @@ void handle_builtin(char **command, int status);
 void exit_shell (char **command, int status);
 void print_env(char **command);
 
-
-
 #endif
