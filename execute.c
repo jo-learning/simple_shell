@@ -3,6 +3,7 @@
 * execute_cus - simple shell main function
 * @command: count of arguments
 * @argv: Arguments
+* @idx: index
 * Return: 0 Always (success)
 */
 
