@@ -21,9 +21,7 @@ int is_builtin(char *command)
 /**
 * handle_builtin - simple shell main function
 * @command: command
-* @argv: argument
 * @status: status
-* @idx: index
 * Return: 0 Always (success)
 */
 void handle_builtin(char **command,  int status)
@@ -47,7 +45,6 @@ void exit_shell(char **command, int status)
 /**
 * print_env - simple shell main function
 * @command: command
-* @status: status
 * Return: 0 Always (success)
 */
 void print_env(char **command)
